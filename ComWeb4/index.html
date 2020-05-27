@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>ChatClient</title>
+        <link rel='stylesheet' type='text/css' >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <h1> TP4 : WebSocket</h1>
+        <script src="client.js"></script>
+        <div class="container">
+             <div class="card">
+                <div class="card-header"><strong>Chat</strong>
+                    
+                </div>
+                <div class="card-body">
+                        <textarea id="message" rows="10" cols="145" ></textarea>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">Message ></span>
+                            </div>
+                            <input class="form-control" aria-label="With textarea"></input>
+                          </div>
+                </div>
+                <button type="button" id="event" class="btn btn-success">Envoyer</button>
+             </div>
+        </div>
+    </body>
+</html>
